@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /account/
+Disallow: /reset/
+
+Sitemap: https://qemica.app/sitemap.xml
