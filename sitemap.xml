@@ -17,10 +17,6 @@
 <changefreq>weekly</changefreq>
 </url>
 <url>
-<loc>https://qemica.app/chembook/</loc>
-<changefreq>weekly</changefreq>
-</url>
-<url>
 <loc>https://qemica.app/blog/</loc>
 <changefreq>weekly</changefreq>
 </url>
@@ -90,10 +86,6 @@
 </url>
 <url>
 <loc>https://qemica.app/guide/troubleshooting-faq/</loc>
-<changefreq>weekly</changefreq>
-</url>
-<url>
-<loc>https://qemica.app/guide/colophon/</loc>
 <changefreq>weekly</changefreq>
 </url>
 </urlset>
