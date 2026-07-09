@@ -1,5 +1,5 @@
 {
-  "version": "0.1.2",
+  "version": "0.1.5",
   "url": "",
-  "notes": "Engines cleanup — see https://qemica.app/changelog/"
+  "notes": "Standalone script export; SSH module mode — see https://qemica.app/changelog/"
 }
