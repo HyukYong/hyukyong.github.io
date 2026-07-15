@@ -1,5 +1,5 @@
 {
-  "version": "0.1.6",
+  "version": "0.1.32",
   "url": "",
-  "notes": "Standalone script export; SSH module mode — see https://qemica.app/changelog/"
+  "notes": "See the changelog: https://hyukyong.github.io/changelog/"
 }
