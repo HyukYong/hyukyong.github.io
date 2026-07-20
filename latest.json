@@ -1,5 +1,5 @@
 {
-  "version": "0.1.53",
-  "url": "https://hyukyong.github.io/changelog/",
-  "notes": "See the changelog: https://hyukyong.github.io/changelog/"
+  "version": "0.1.54",
+  "url": "https://github.com/HyukYong/qemica-releases/releases/latest",
+  "notes": "Signed and notarized macOS build, plus a new boot splash. See the changelog: https://hyukyong.github.io/changelog/"
 }
