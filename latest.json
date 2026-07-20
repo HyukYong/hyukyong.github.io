@@ -1,5 +1,5 @@
 {
-  "version": "0.1.54",
+  "version": "0.2.0",
   "url": "https://github.com/HyukYong/qemica-releases/releases/latest",
-  "notes": "Signed and notarized macOS build, plus a new boot splash. See the changelog: https://hyukyong.github.io/changelog/"
+  "notes": "Opt-in launch-time update check, finalized EULA/privacy terms, and UI fixes. Universal, signed and notarized macOS build. See the changelog: https://hyukyong.github.io/changelog/"
 }
