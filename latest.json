@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0",
+  "version": "0.2.1",
   "url": "https://github.com/HyukYong/qemica-releases/releases/latest",
-  "notes": "Opt-in launch-time update check, finalized EULA/privacy terms, and UI fixes. Universal, signed and notarized macOS build. See the changelog: https://hyukyong.github.io/changelog/"
+  "notes": "Working one-click engine install, a custom-environment path option, SQD and other optional engines installable from Config, a smoother consent-ordered first run, and faster sample loading. Universal, signed and notarized macOS build. See the changelog: https://hyukyong.github.io/changelog/"
 }
