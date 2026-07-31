@@ -9,6 +9,10 @@
 <changefreq>weekly</changefreq>
 </url>
 <url>
+<loc>https://hyukyong.github.io/chembook/</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
 <loc>https://hyukyong.github.io/guide/</loc>
 <changefreq>weekly</changefreq>
 </url>
@@ -42,6 +46,10 @@
 </url>
 <url>
 <loc>https://hyukyong.github.io/legal/privacy/</loc>
+<changefreq>weekly</changefreq>
+</url>
+<url>
+<loc>https://hyukyong.github.io/legal/chembook-privacy/</loc>
 <changefreq>weekly</changefreq>
 </url>
 <url>
