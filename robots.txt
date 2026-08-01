@@ -3,4 +3,4 @@ Allow: /
 Disallow: /account/
 Disallow: /reset/
 
-Sitemap: https://hyukyong.github.io/sitemap.xml
+Sitemap: https://qemica-lab.com/sitemap.xml
