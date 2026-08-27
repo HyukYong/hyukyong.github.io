@@ -1,0 +1,227 @@
+1:"$Sreact.fragment"
+2:I[4647,["730","static/chunks/44530001-f5212f80b137756d.js","619","static/chunks/619-ba102abea3e3d0e4.js","445","static/chunks/445-bb6a4e9f6953b066.js","177","static/chunks/app/layout-21474a281d7f67ba.js"],"AuthProvider"]
+3:I[7375,["730","static/chunks/44530001-f5212f80b137756d.js","619","static/chunks/619-ba102abea3e3d0e4.js","445","static/chunks/445-bb6a4e9f6953b066.js","177","static/chunks/app/layout-21474a281d7f67ba.js"],"default"]
+4:I[595,["730","static/chunks/44530001-f5212f80b137756d.js","619","static/chunks/619-ba102abea3e3d0e4.js","445","static/chunks/445-bb6a4e9f6953b066.js","177","static/chunks/app/layout-21474a281d7f67ba.js"],"default"]
+5:I[9766,[],""]
+6:I[8924,[],""]
+7:I[2619,["730","static/chunks/44530001-f5212f80b137756d.js","619","static/chunks/619-ba102abea3e3d0e4.js","445","static/chunks/445-bb6a4e9f6953b066.js","54","static/chunks/54-88c4cc6fb24425a2.js","974","static/chunks/app/page-6bb9020793daf54a.js"],""]
+b:I[7150,[],""]
+:HL["/_next/static/media/558ca1a6aa3cb55e-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/e88714f38c960e96.css","style"]
+8:T1f64,SPECTROMASTER PRIVACY POLICY
+Version 2026-08-27
+
+Publisher: Qemica Lab, an independent software developer based in the
+Republic of Korea ("we").
+Contact: feedback.qemica@gmail.com  ·  We are a one-person operation and
+have not appointed a separate data protection officer. Email is our
+contact channel; we publish no postal address.
+
+This policy covers the Spectromaster application for iPhone, iPad and
+Mac. It does NOT cover the Qemica desktop workbench (/legal/privacy) or
+Chembook (/legal/chembook-privacy), which are separate products with
+their own policies.
+
+
+1. SUMMARY
+
+   Spectromaster does not collect, transmit, or share any personal
+   data. We cannot see your spectra, your samples, or anything you do
+   in the app.
+
+   Reading and interpreting a spectrum happens entirely on your device,
+   against reference data built into the download. There is no server
+   doing the science, no account, no sign-in, no analytics, no
+   advertising, no tracking, no crash reporting, and no third-party
+   SDK of any kind. The app contains no logging code at all.
+
+   The app has exactly one network feature, and it is optional and off
+   until you switch it on: syncing your own records between your own
+   devices through your own private iCloud database (Section 4).
+
+   We have declared "Data Not Collected" on the App Store, and the
+   privacy manifest shipped inside the app says the same thing.
+
+
+2. WHAT THE APP STORES ON YOUR DEVICE
+
+   Spectromaster saves your work inside the app's own private storage
+   on your device:
+
+   - Solutions (samples) and their labels, comments and notes.
+   - Measurements: peak tables, multiplets, and the interpretations
+     produced from them.
+   - Spectrum photographs you captured or imported, and instrument
+     files you opened.
+   - A history of readings, and records of what you have deleted, so a
+     deletion is not undone the next time your devices sync.
+   - App preferences, and a cached flag recording whether you own the
+     unlock.
+
+   On iPhone and iPad this data is written with file protection
+   enabled, so it stays encrypted while the device is locked.
+
+   You can delete any of it from within the app, or remove all of it by
+   deleting the app. Deleting the app does not cancel a purchase (see
+   Section 6).
+
+
+3. NETWORK USE
+
+   No stage of the science touches the network. Extracting peaks,
+   measuring, interpreting, ranking candidates and searching the
+   reference library all run locally against data compiled into the
+   app. A result is reproducible on a device in aeroplane mode, and the
+   app contains no general-purpose networking code.
+
+   We do not fetch reference data at runtime, and nothing about your
+   use of the app is reported to us.
+
+   The only network activity is:
+
+   - iCloud sync, if you switch it on (Section 4).
+   - The purchase and purchase-restore flow, performed by Apple's own
+     store services rather than by us (Section 6).
+
+
+4. ICLOUD SYNC (OPTIONAL)
+
+   Sync is off until you turn it on, and the app is fully usable with
+   it left off forever. Nothing in the science or the interpretation
+   depends on it.
+
+   When it is on, your records — solutions, measurements, spectrum
+   photographs, history, and deletion records — are copied between your
+   own devices through the PRIVATE database of your own iCloud account.
+
+   What this means in practice:
+
+   - The data goes to your Apple account, not to us. We have no server
+     and no database, and we have no way to read, request, or recover
+     any of it.
+   - Only the private database is used. The container's public database
+     is never touched, so nothing you record is visible to other users
+     or to us.
+   - It syncs between your devices only. There is no sharing feature,
+     no collaboration, and no other person's device involved.
+   - Turning sync off stops further copying. Records already in your
+     iCloud remain there under your control, and can be removed by
+     deleting the corresponding solutions in the app, or through your
+     Apple account's iCloud storage settings.
+
+   Deleting a solution, a measurement, or a photograph in the app
+   deletes the matching record and image from your iCloud on the next
+   sync, and records the deletion so that another device does not put
+   it back.
+
+   Apple processes iCloud data under its own privacy policy, which we
+   do not control: https://www.apple.com/legal/privacy/
+
+
+5. CAMERA AND PHOTOGRAPHS
+
+   Spectromaster can photograph a printed or on-screen spectrum so it
+   can be read. The camera is used only when you open it, and images go
+   straight into the app's own storage.
+
+   - Location is never recorded. The app does not use location services
+     at all, and every photograph it stores is re-encoded with its
+     metadata removed: no GPS coordinates, no device or lens
+     information, no capture timestamps from the camera.
+   - Access to your photo library is ADD-ONLY. The app can save a
+     capture to your library when you ask it to, and it has no
+     permission to read your library or to see any other photograph in
+     it.
+   - Importing a spectrum image or an instrument file reads only the
+     file you chose.
+
+   On the Mac, the app has no camera or photo-library access at all.
+
+
+6. PURCHASES
+
+   Spectromaster offers one optional, one-time in-app purchase that
+   removes the limit on how many solutions you can keep at once and
+   enables the iCloud sync described in Section 4.
+
+   Reading spectra, every analysis and interpretation, and exporting
+   your own records are free and unlimited, permanently. Nothing about
+   the accuracy of a result depends on whether you have paid.
+
+   Purchases are processed entirely by Apple. We never see or store
+   your payment details, your Apple Account identity, or your purchase
+   history. Whether you currently own the unlock is checked on device
+   through Apple's own store APIs; there is no receipt server, and the
+   check involves no service of ours.
+
+   Apple handles that transaction under its own privacy policy, which
+   we do not control: https://www.apple.com/legal/privacy/
+
+   To restore a previous purchase on a new device or after
+   reinstalling, use Restore Purchase.
+
+
+7. EXPORTS AND BACKUPS
+
+   You can export your records and back up the whole cabinet at any
+   time, in the free version as well as the paid one, including after a
+   refund. Your measurements are yours and are never held hostage.
+
+   Exports are written where you choose, by you. They contain your
+   records and nothing else: no device identifiers, no account
+   information, and no usage data. They are not sent anywhere.
+
+
+8. CHILDREN'S PRIVACY
+
+   Spectromaster is a laboratory and study tool for chemistry, not a
+   product directed at children. Because it collects no personal data
+   at all, it does not knowingly collect information from children, and
+   there is nothing for a parent or guardian to request the deletion
+   of. Data the app has written is on the device, under your control,
+   and is removed with the app.
+
+
+9. YOUR RIGHTS
+
+   Privacy laws such as the GDPR and the CCPA give you rights of
+   access, correction, deletion, and portability over personal data a
+   company holds about you.
+
+   We hold none. There is no account, no server, and no database in
+   which you appear, so there is nothing for us to disclose, correct,
+   export, or erase. The data described in Section 2 is under your own
+   control on your own device, and the iCloud copy described in Section
+   4 is in your own Apple account.
+
+   We do not sell or share personal information, because we do not
+   collect any.
+
+
+10. CHANGES TO THIS POLICY
+
+   If this policy changes, the updated version will be posted at this
+   URL with a new version date. Material changes will also be noted in
+   the app's release notes.
+
+   Any widening of the single network exception in Section 4 would be a
+   material change and would be stated here plainly, not slipped in.
+
+
+11. CONTACT
+
+   Questions about privacy: feedback.qemica@gmail.com
+0:{"P":null,"b":"8Ftrd09jlE_197nNbHPLB","p":"","c":["","legal","spectromaster-privacy",""],"i":false,"f":[[["",{"children":["legal",{"children":["spectromaster-privacy",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/e88714f38c960e96.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"__variable_8b3a0b __variable_e896d9","children":["$","body",null,{"children":["$","$L2",null,{"children":[["$","$L3",null,{}],["$","$L4",null,{}],["$","main",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"footer","children":["$","div",null,{"className":"container","children":[["$","div",null,{"className":"footer-grid","children":[["$","div",null,{"children":[["$","$L7",null,{"className":"brand","href":"/","children":[["$","img",null,{"className":"brand-mark","src":"/qemica-logo.svg","alt":""}]," Qemica"]}],["$","p",null,{"className":"desc","children":"A computational chemistry workbench for the people who actually run the calculations — built for the quantum era, useful today."}]]}],["$","div",null,{"className":"col","children":[["$","h2",null,{"children":"Products"}],["$","$L7",null,{"href":"/platform","children":"Qemica"}],["$","$L7",null,{"href":"/chembook","children":"Chembook"}],["$","$L7",null,{"href":"/spectromaster","children":"Spectromaster"}],["$","$L7",null,{"href":"/platform#quantum","children":"Quantum-ready"}],["$","$L7",null,{"href":"/platform#pricing","children":"Pricing"}],["$","$L7",null,{"href":"/#download","children":"Download"}]]}],["$","div",null,{"className":"col","children":[["$","h2",null,{"children":"Science"}],["$","$L7",null,{"href":"/#features","children":"Workflow"}],["$","$L7",null,{"href":"/platform#engine","children":"Stack"}],["$","$L7",null,{"href":"/platform#methods","children":"Methods"}],["$","$L7",null,{"href":"/platform#analyze","children":"Analysis"}]]}],["$","div",null,{"className":"col","children":[["$","h2",null,{"children":"Company"}],["$","$L7",null,{"href":"/blog","children":"Blog"}],["$","$L7",null,{"href":"/forum","children":"Forum"}],["$","$L7",null,{"href":"/guide","children":"Guide"}],["$","$L7",null,{"href":"/faq","children":"FAQ"}],["$","$L7",null,{"href":"/changelog","children":"Changelog"}],["$","$L7",null,{"href":"/cite","children":"Cite Qemica"}],["$","a",null,{"href":"mailto:feedback.qemica@gmail.com","children":"Contact"}]]}]]}],["$","div",null,{"className":"footer-base","children":["$","span",null,{"children":["© 2026 Qemica Lab · ",["$","$L7",null,{"href":"/legal/eula","children":"EULA"}]," ·"," ",["$","$L7",null,{"href":"/legal/privacy","children":"Privacy"}]," ·"," ",["$","$L7",null,{"href":"/legal/chembook-privacy","children":"Chembook privacy"}]," ·"," ",["$","$L7",null,{"href":"/legal/spectromaster-privacy","children":"Spectromaster privacy"}]]}]}]]}]}]]}]}]}]]}],{"children":["legal",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["spectromaster-privacy",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","div",null,{"className":"container","children":["$","div",null,{"className":"legal-page","children":["$","pre",null,{"className":"legal-text","children":"$8"}]}]}],null,"$L9"]}],{},null,false]},null,false]},null,false]},null,false],"$La",false]],"m":"$undefined","G":["$b",[]],"s":false,"S":true}
+c:I[4431,[],"OutletBoundary"]
+e:I[5278,[],"AsyncMetadataOutlet"]
+10:I[4431,[],"ViewportBoundary"]
+12:I[4431,[],"MetadataBoundary"]
+13:"$Sreact.suspense"
+9:["$","$Lc",null,{"children":["$Ld",["$","$Le",null,{"promise":"$@f"}]]}]
+a:["$","$1","h",{"children":[null,[["$","$L10",null,{"children":"$L11"}],["$","meta",null,{"name":"next-size-adjust","content":""}]],["$","$L12",null,{"children":["$","div",null,{"hidden":true,"children":["$","$13",null,{"fallback":null,"children":"$L14"}]}]}]]}]
+11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+d:null
+15:I[622,[],"IconMark"]
+f:{"metadata":[["$","title","0",{"children":"Spectromaster Privacy Policy — Qemica"}],["$","meta","1",{"name":"description","content":"The Spectromaster Privacy Policy — analysis runs entirely on your device, we collect no personal data, and the only network feature is optional sync of your own records through your own private iCloud."}],["$","meta","2",{"name":"application-name","content":"Qemica"}],["$","meta","3",{"name":"author","content":"Qemica Lab"}],["$","meta","4",{"name":"keywords","content":"computational chemistry,quantum chemistry,DFT,electronic structure,VQE,molecular modeling"}],["$","meta","5",{"property":"og:title","content":"Qemica — Computational chemistry, quantum-ready"}],["$","meta","6",{"property":"og:description","content":"A desktop workbench for computational chemistry — model molecules, run the methods, see the physics. Built for the quantum era, useful today."}],["$","meta","7",{"property":"og:site_name","content":"Qemica"}],["$","meta","8",{"property":"og:image","content":"https://qemica-lab.com/og.png"}],["$","meta","9",{"property":"og:image:width","content":"1200"}],["$","meta","10",{"property":"og:image:height","content":"630"}],["$","meta","11",{"property":"og:image:alt","content":"The Qemica workbench"}],["$","meta","12",{"property":"og:type","content":"website"}],["$","meta","13",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","14",{"name":"twitter:title","content":"Qemica — Computational chemistry, quantum-ready"}],["$","meta","15",{"name":"twitter:description","content":"A desktop workbench for computational chemistry — model molecules, run the methods, see the physics."}],["$","meta","16",{"name":"twitter:image","content":"https://qemica-lab.com/og.png"}],["$","link","17",{"rel":"icon","href":"/icon.svg?19f58ae594407c6a","type":"image/svg+xml","sizes":"any"}],["$","$L15","18",{}]],"error":null,"digest":"$undefined"}
+14:"$f:metadata"
