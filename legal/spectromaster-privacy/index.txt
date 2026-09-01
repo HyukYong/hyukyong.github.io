@@ -9,8 +9,8 @@ b:I[7150,[],""]
 :HL["/_next/static/media/558ca1a6aa3cb55e-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/css/e88714f38c960e96.css","style"]
-8:T1f40,SPECTROMASTER PRIVACY POLICY
-Version 2026-08-29
+8:T25ea,SPECTROMASTER PRIVACY POLICY
+Version 2026-09-01
 
 Publisher: Qemica Lab, an independent software developer based in the
 Republic of Korea ("we").
@@ -33,12 +33,20 @@ their own policies.
    Reading and interpreting a spectrum happens entirely on your device,
    against reference data built into the download. There is no server
    doing the science, no account, no sign-in, no analytics, no
-   advertising, no tracking, no crash reporting, and no third-party
-   SDK of any kind. The app contains no logging code at all.
+   advertising network, no tracking, no crash reporting, and no
+   third-party SDK of any kind. The app contains no logging code at
+   all.
 
-   The app has exactly one network feature, and it is optional and off
-   until you switch it on: syncing your own records between your own
-   devices through your own private iCloud database (Section 4).
+   The free version shows one card promoting our own products. It is
+   text built into the app: it reads no identifier, it is not chosen
+   for you, and it cannot report that you saw it or tapped it
+   (Section 6).
+
+   The app has exactly one network feature of its own, and it is
+   optional and off until you switch it on: syncing your own records
+   between your own devices through your own private iCloud database
+   (Section 4). The only other traffic is Apple's — the purchase flow,
+   and the App Store opening if you tap the card (Section 3).
 
    We have declared "Data Not Collected" on the App Store, and the
    privacy manifest shipped inside the app says the same thing.
@@ -54,6 +62,9 @@ their own policies.
      produced from them.
    - Spectrum photographs you captured or imported, and instrument
      files you opened.
+   - A reference table you imported yourself, if you imported one,
+     with the name, source and licence you gave it. It stays on the
+     device you imported it on and is not synced.
    - Records of what you have deleted, so a deletion is not undone the
      next time your devices sync.
    - App preferences, and a cached flag recording whether you own the
@@ -83,13 +94,17 @@ their own policies.
    - iCloud sync, if you switch it on (Section 4).
    - The purchase and purchase-restore flow, performed by Apple's own
      store services rather than by us (Section 6).
+   - Opening the App Store, if you tap the link on the promotional
+     card. That hands the address to Apple's App Store app; this app
+     makes no request of its own and is told nothing about what
+     happens next (Section 6).
 
 
 4. ICLOUD SYNC (OPTIONAL)
 
    Sync is off until you turn it on, and the app is fully usable with
    it left off forever. Nothing in the science or the interpretation
-   depends on it.
+   depends on it, and it needs no purchase: sync is free.
 
    When it is on, your records — solutions, measurements, spectrum
    photographs, and deletion records — are copied between your own
@@ -139,15 +154,17 @@ their own policies.
    On the Mac, the app has no camera or photo-library access at all.
 
 
-6. PURCHASES
+6. PURCHASES AND THE PROMOTIONAL CARD
 
-   Spectromaster offers one optional, one-time in-app purchase that
-   removes the limit on how many solutions you can keep at once and
-   enables the iCloud sync described in Section 4.
+   Spectromaster offers one optional, one-time in-app purchase. It
+   removes the limit on how many solutions you can keep at once, lets
+   the app search a reference table you supply beside the one built
+   in, and removes the promotional card described below.
 
-   Reading spectra, every analysis and interpretation, and exporting
-   your own records are free and unlimited, permanently. Nothing about
-   the accuracy of a result depends on whether you have paid.
+   Reading spectra, every analysis and interpretation, exporting your
+   own records, and the iCloud sync in Section 4 are free and
+   unlimited, permanently. Nothing about the accuracy of a result
+   depends on whether you have paid.
 
    Purchases are processed entirely by Apple. We never see or store
    your payment details, your Apple Account identity, or your purchase
@@ -160,6 +177,23 @@ their own policies.
 
    To restore a previous purchase on a new device or after
    reinstalling, use Restore Purchase.
+
+   THE PROMOTIONAL CARD
+
+   The free version shows one card at the foot of the cabinet screen,
+   alternating between the purchase above and another app we make. The
+   purchase removes it.
+
+   There is no advertising network behind it. The wording is compiled
+   into the app and ships with the download, so it is the same for
+   everyone: nothing about it is chosen, targeted, or personalised. No
+   advertising identifier is read, no impression or tap is counted, and
+   nothing about the card reaches us or anyone else — we cannot tell
+   whether it has ever been seen.
+
+   Tapping it opens Apple's App Store, under Apple's privacy policy
+   rather than ours. We are told nothing about whether you opened it,
+   or what you did once you were there.
 
 
 7. EXPORTS AND BACKUPS
@@ -212,7 +246,7 @@ their own policies.
 11. CONTACT
 
    Questions about privacy: feedback.qemica@gmail.com
-0:{"P":null,"b":"YLpEWqzQqBZB5THag5A17","p":"","c":["","legal","spectromaster-privacy",""],"i":false,"f":[[["",{"children":["legal",{"children":["spectromaster-privacy",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/e88714f38c960e96.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"__variable_8b3a0b __variable_e896d9","children":["$","body",null,{"children":["$","$L2",null,{"children":[["$","$L3",null,{}],["$","$L4",null,{}],["$","main",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"footer","children":["$","div",null,{"className":"container","children":[["$","div",null,{"className":"footer-grid","children":[["$","div",null,{"children":[["$","$L7",null,{"className":"brand","href":"/","children":[["$","img",null,{"className":"brand-mark","src":"/qemica-logo.svg","alt":""}]," Qemica"]}],["$","p",null,{"className":"desc","children":"A computational chemistry workbench for the people who actually run the calculations — built for the quantum era, useful today."}]]}],["$","div",null,{"className":"col","children":[["$","h2",null,{"children":"Products"}],["$","$L7",null,{"href":"/platform","children":"Qemica"}],["$","$L7",null,{"href":"/chembook","children":"Chembook"}],["$","$L7",null,{"href":"/spectromaster","children":"Spectromaster"}],["$","$L7",null,{"href":"/platform#quantum","children":"Quantum-ready"}],["$","$L7",null,{"href":"/platform#pricing","children":"Pricing"}],["$","$L7",null,{"href":"/#download","children":"Download"}]]}],["$","div",null,{"className":"col","children":[["$","h2",null,{"children":"Science"}],["$","$L7",null,{"href":"/#features","children":"Workflow"}],["$","$L7",null,{"href":"/platform#engine","children":"Stack"}],["$","$L7",null,{"href":"/platform#methods","children":"Methods"}],["$","$L7",null,{"href":"/platform#analyze","children":"Analysis"}]]}],["$","div",null,{"className":"col","children":[["$","h2",null,{"children":"Company"}],["$","$L7",null,{"href":"/blog","children":"Blog"}],["$","$L7",null,{"href":"/forum","children":"Forum"}],["$","$L7",null,{"href":"/guide","children":"Guide"}],["$","$L7",null,{"href":"/faq","children":"FAQ"}],["$","$L7",null,{"href":"/changelog","children":"Changelog"}],["$","$L7",null,{"href":"/cite","children":"Cite Qemica"}],["$","a",null,{"href":"mailto:feedback.qemica@gmail.com","children":"Contact"}]]}]]}],["$","div",null,{"className":"footer-base","children":["$","span",null,{"children":["© 2026 Qemica Lab · ",["$","$L7",null,{"href":"/legal/eula","children":"EULA"}]," ·"," ",["$","$L7",null,{"href":"/legal/privacy","children":"Privacy"}]," ·"," ",["$","$L7",null,{"href":"/legal/chembook-privacy","children":"Chembook privacy"}]," ·"," ",["$","$L7",null,{"href":"/legal/spectromaster-privacy","children":"Spectromaster privacy"}]]}]}]]}]}]]}]}]}]]}],{"children":["legal",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["spectromaster-privacy",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","div",null,{"className":"container","children":["$","div",null,{"className":"legal-page","children":["$","pre",null,{"className":"legal-text","children":"$8"}]}]}],null,"$L9"]}],{},null,false]},null,false]},null,false]},null,false],"$La",false]],"m":"$undefined","G":["$b",[]],"s":false,"S":true}
+0:{"P":null,"b":"ZJajm3CMax5iFbZeu9OEN","p":"","c":["","legal","spectromaster-privacy",""],"i":false,"f":[[["",{"children":["legal",{"children":["spectromaster-privacy",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/e88714f38c960e96.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"__variable_8b3a0b __variable_e896d9","children":["$","body",null,{"children":["$","$L2",null,{"children":[["$","$L3",null,{}],["$","$L4",null,{}],["$","main",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"footer","children":["$","div",null,{"className":"container","children":[["$","div",null,{"className":"footer-grid","children":[["$","div",null,{"children":[["$","$L7",null,{"className":"brand","href":"/","children":[["$","img",null,{"className":"brand-mark","src":"/qemica-logo.svg","alt":""}]," Qemica"]}],["$","p",null,{"className":"desc","children":"A computational chemistry workbench for the people who actually run the calculations — built for the quantum era, useful today."}]]}],["$","div",null,{"className":"col","children":[["$","h2",null,{"children":"Products"}],["$","$L7",null,{"href":"/platform","children":"Qemica"}],["$","$L7",null,{"href":"/chembook","children":"Chembook"}],["$","$L7",null,{"href":"/spectromaster","children":"Spectromaster"}],["$","$L7",null,{"href":"/platform#quantum","children":"Quantum-ready"}],["$","$L7",null,{"href":"/platform#pricing","children":"Pricing"}],["$","$L7",null,{"href":"/#download","children":"Download"}]]}],["$","div",null,{"className":"col","children":[["$","h2",null,{"children":"Science"}],["$","$L7",null,{"href":"/#features","children":"Workflow"}],["$","$L7",null,{"href":"/platform#engine","children":"Stack"}],["$","$L7",null,{"href":"/platform#methods","children":"Methods"}],["$","$L7",null,{"href":"/platform#analyze","children":"Analysis"}]]}],["$","div",null,{"className":"col","children":[["$","h2",null,{"children":"Company"}],["$","$L7",null,{"href":"/blog","children":"Blog"}],["$","$L7",null,{"href":"/forum","children":"Forum"}],["$","$L7",null,{"href":"/guide","children":"Guide"}],["$","$L7",null,{"href":"/faq","children":"FAQ"}],["$","$L7",null,{"href":"/changelog","children":"Changelog"}],["$","$L7",null,{"href":"/cite","children":"Cite Qemica"}],["$","a",null,{"href":"mailto:feedback.qemica@gmail.com","children":"Contact"}]]}]]}],["$","div",null,{"className":"footer-base","children":["$","span",null,{"children":["© 2026 Qemica Lab · ",["$","$L7",null,{"href":"/legal/eula","children":"EULA"}]," ·"," ",["$","$L7",null,{"href":"/legal/privacy","children":"Privacy"}]," ·"," ",["$","$L7",null,{"href":"/legal/chembook-privacy","children":"Chembook privacy"}]," ·"," ",["$","$L7",null,{"href":"/legal/spectromaster-privacy","children":"Spectromaster privacy"}]]}]}]]}]}]]}]}]}]]}],{"children":["legal",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["spectromaster-privacy",["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L6",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","div",null,{"className":"container","children":["$","div",null,{"className":"legal-page","children":["$","pre",null,{"className":"legal-text","children":"$8"}]}]}],null,"$L9"]}],{},null,false]},null,false]},null,false]},null,false],"$La",false]],"m":"$undefined","G":["$b",[]],"s":false,"S":true}
 c:I[4431,[],"OutletBoundary"]
 e:I[5278,[],"AsyncMetadataOutlet"]
 10:I[4431,[],"ViewportBoundary"]
